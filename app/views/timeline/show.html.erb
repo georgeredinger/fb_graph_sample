@@ -1,6 +1,6 @@
 <section class="timeline">
   <%= form_tag timeline_path do %>
-    <%= text_area_tag :message, nil, :placeholder => 'Welcome to snap peas, 20% discount off snaps http://example.com/?1234abcd' %>
+    <%= text_area_tag :message, 'Welcome to snap peas, 20% discount off snaps http://example.com/?1234abcd' %>
     <%= submit_tag 'Update', :disable_with => 'Updating...' %>
   <% end %>
 </section>
